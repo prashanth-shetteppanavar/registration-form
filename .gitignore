@@ -1,0 +1,29 @@
+/.vscode/
+/node_modules/
+/vendor/
+/data/backups/
+/data/*.key
+/data/*.pem
+/uploads/
+*.log
+*.env
+/.env
+.DS_Store
+Thumbs.db
+/.idea/
+/.cache/
+/.sass-cache/
+# Ignore upload files
+uploads/*
+!uploads/.gitkeep
+
+# Ignore log files
+logs/*
+!logs/.gitkeep
+
+# Ignore submissions file (contains personal data)
+submissions.json
+
+# Ignore system files
+.DS_Store
+Thumbs.db
